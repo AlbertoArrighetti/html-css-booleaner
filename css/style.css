@@ -1,18 +1,51 @@
-#container{
 
+header{
+    background-image: url(../img/pattern.png);
+    background-color: #6CB4EE;
 }
 
-#background{
-    background-color: blue;
-    width: 100vh;
-    height: 200px;
-}
 
 #logo{
     width: 200px;
     height: 100px;
+    margin-top: 50px;
+}
+
+#photo-text{
+    font-size: 10px;
 }
 
 .yellow-highlight{
     background-color: yellow;
+}
+.azure-text{
+    color: azure;
+}
+
+ul{
+    padding-inline-start: 10px;
+}
+
+
+.table{
+    border-spacing: 0px;
+    text-align: left;
+}
+
+thead{
+    background-color: #7CB9E8;
+}
+
+.tr-blue{
+    background-color: #E0FFFF;
+}
+
+.left-row{
+    width: 25%;
+}
+.central-row{
+    width: 25%;
+}
+.right-row{
+    width: 50%;
 }
