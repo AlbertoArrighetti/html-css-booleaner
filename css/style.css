@@ -19,7 +19,10 @@ header{
     background-color: yellow;
 }
 .azure-text{
-    color: azure;
+    color: #7CB9E8;
+}
+.grey-text{
+    color: rgb(71, 70, 70);
 }
 
 ul{
@@ -34,6 +37,7 @@ ul{
 
 thead{
     background-color: #7CB9E8;
+    color: white;
 }
 
 .tr-blue{
@@ -48,4 +52,9 @@ thead{
 }
 .right-row{
     width: 50%;
+}
+
+.img-footer{
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
