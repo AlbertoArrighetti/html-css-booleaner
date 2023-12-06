@@ -1,4 +1,7 @@
 /* nav bar e logo */
+body{
+    margin: 0;
+}
 nav{
     background-image: url('../img/pattern.png');
     background-size: auto 200%;
@@ -11,11 +14,16 @@ nav{
     height: auto;
 
     margin-top: 30px;
-    margin-left: 10px;
+  
     margin-bottom: 10px;
 }
 
 /* img text  */
+
+article{
+    margin: 10px;
+}
+
 h1{
     margin-bottom: 0px;
 }
@@ -30,12 +38,13 @@ h1{
 #date {
     color: #7a7a7a;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* lista non ordinata */
 ul{
     padding-inline-start: 10px;
+    margin-left: 10px;
 }
 
 /* tabella */
@@ -54,27 +63,21 @@ thead {
     width: 25%;
 }
 
-
-
-.container{
-    position: relative;
-    height: 150px;
+/* footer e immagini */
+.grey-text{
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.image{
     width: 250px;
-    margin-bottom: 15px;
-}
-
-#monitor{
-    background-image: url(../img/monitor.jpg); 
-    background-size: contain;
-}
-#graph{
-    background-image: url(../img/graph.jpg);
-    background-size: contain;
-}
-.link{
+    height: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
     color: white;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
     font-weight: bold;
+    font-size: 16px;
+}
+.image-title{
+    margin-left: 10px;
 }
