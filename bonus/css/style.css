@@ -1,0 +1,85 @@
+/* nav bar e logo */
+body{
+    margin: 0;
+}
+nav{
+    background-image: url('../img/pattern.png');
+    background-size: auto 200%;
+
+    background-color: #4ea0ff;
+}
+#logo{
+    width: 150px;
+    height: auto;
+
+    margin-top: 30px;
+  
+    margin-bottom: 10px;
+}
+
+/* bonus */
+.centered-logo{
+    width: 80%;
+    margin: auto;
+
+}
+/* img text  */
+
+
+h1{
+    margin-bottom: 0px;
+}
+
+#fonte{
+    color: #7a7a7a;
+}
+#link-fonte{
+    text-decoration: none;
+    color: #4ea0ff;
+}
+#date {
+    color: #7a7a7a;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* lista non ordinata */
+ul{
+    padding-inline-start: 10px;
+    margin-left: 10px;
+}
+
+/* tabella */
+table{
+    border-spacing: 0px;
+    text-align: left;
+}
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+.lightblue-row{
+    background-color: #b1e5f2;
+}
+.row-25{
+    width: 25%;
+}
+
+/* footer e immagini */
+.grey-text{
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.image{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.image-title{
+    margin-left: 10px;
+}
