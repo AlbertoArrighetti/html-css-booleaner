@@ -39,8 +39,20 @@ ul{
 }
 
 /* tabella */
-
-
+table{
+    border-spacing: 0px;
+    text-align: left;
+}
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+.lightblue-row{
+    background-color: #b1e5f2;
+}
+.row-25{
+    width: 25%;
+}
 
 
 
